@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Bantu Ebil menjawab soalan i`rab!',
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="ar">
       <body>{children}</body>
