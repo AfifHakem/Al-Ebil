@@ -1,17 +1,15 @@
 import './globals.css'
-import { ReactNode } from 'react'
+import './globals.css'
 
 export const metadata = {
-  title: 'Al-Ebil | I‘rab Game',
-  description: 'Permainan i‘rab interaktif bersama Ebil si unta'
+  title: 'Al-Ebil | Game I`rab',
+  description: 'Bantu Ebil menjawab soalan i`rab!',
 }
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ar">
-      <body dir="rtl" className="bg-neutral-900 text-white font-sans">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
